@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CyberTech  - Buy Data, Airtime, WAEC & NECO Cards</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1 class="title">CyberTech</h1>
+     <h2 class="title">MATHEW GABRIEL</h2>
+    <p class="subtitle">Your one-stop platform for Data, Airtime, WAEC & NECO Cards</p>
+
+    <div class="card" id="data-card">
+      <h2>Data Plans</h2>
+      <ul>
+        <li>MTN 1GB = ₦700</li>
+        <li>GLO 1GB = ₦500</li>
+        <li>Airtel 1GB = ₦650</li>
+      </ul>
+      <button class="order-button" onclick="showOrderDetails()">Order Now</button>
+    </div>
+
+    <div class="card" id="airtime-card">
+      <h2>Airtime</h2>
+      <p>₦100 for all networks</p>
+      <button class="order-button" onclick="showOrderDetails()">Order Now</button>
+    </div>
+
+    <div class="card" id="waec-card">
+      <h2>WAEC Scratch Card</h2>
+      <p>₦4,000</p>
+      <button class="order-button" onclick="showOrderDetails()">Order Now</button>
+    </div>
+
+    <div class="card" id="neco-card">
+      <h2>NECO Scratch Card</h2>
+      <p>₦2,000</p>
+      <button class="order-button" onclick="showOrderDetails()">Order Now</button>
+    </div>
+  </div>
+
+  <!-- Modal for displaying order details -->
+  <div id="orderModal" class="modal">
+    <div class="modal-content">
+      <span class="close-button" onclick="closeModal()">&times;</span>
+      <h2>Contact Details for Order</h2>
+      <p><strong>Name:</strong> Mathew Gabriel</p>
+      <p><strong>Address:</strong> Modibbo Adama University, Yola Campus, Sangere, Girei LGA</p>
+      <p><strong>TO ORDER?</strong> CLICKTHE PHONE NUMBER TO PLACE ORDER</p>
+      <p><strong>WhatsApp:</strong> <a href="https://wa.me/2348148646232" target="_blank">08166726399</a></p>
+    </div>
+  </div>
+
+  <script src="javaa.js"></script>
+</body>
+</html>
